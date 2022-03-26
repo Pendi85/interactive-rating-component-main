@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    /*color: hsl(0, 0%, 100%);*/
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+h1, a {
+    color: white;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+    font-weight: 400;
+}
+
+
+/* container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(24, 31, 41, 1);
+    width: 340px;
+    height: 365px;
+
+    padding: 35px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+/* rating-state */
+
+#rating-state {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* star-icon */
+.star-icon {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* description */
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* rating */
+.rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+
+    width: 55px;
+    height: 55px;
+    text-align: center;
+}
+
+/*Play with mouse event to hover the div and make active div*/
+/*.rating-value:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+
+.rating-value:active, .rating-value:focus, .rating-value:visited, .rating-value:focus-visible, .rating-value:focus-within, .rating-value::selection {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}*/
+
+
+
+/* submit button */
+#submit-value-btn {
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding: 15px 0px;
+}
+
+#submit-value-btn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);  
+}
+
+/* thank-you-state */
+#thank-you-state {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    gap: 30px;
+}
+
+.rating-selected {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    padding: 5px 17px;
+    border-radius: 15px;
+}
+
+.thank-you-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

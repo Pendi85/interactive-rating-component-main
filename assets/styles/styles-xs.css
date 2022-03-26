@@ -1,0 +1,79 @@
+@media  screen and (max-width: 450px) {
+    h1 {
+        font-size: 7.11vw;
+    }
+    
+    p {
+        font-size: 3.33vw;
+        line-height: 5.55vw;
+    }
+    
+    
+    /* container */
+    .container {
+        width: 75.55vw;
+        height: 81.11vw;
+    
+        padding: 7.77vw;
+        margin: 4.44vw;
+        border-radius: 6.66vw;
+    }
+    
+    /* rating-state */
+    
+    #rating-state {
+        gap: 6.66vw;
+    }
+    
+    /* star-icon */
+    .star-icon {
+        width: 11.11vw;
+        height: 11.11vw;
+    }
+
+    .star-icon img {
+        width: 3.77vw;
+        height: 3.55vw;
+    }
+    
+    /* description */
+    .description {
+        gap: 2.22vw;
+    }
+    
+    /* rating */
+    .rating-value {
+        width: 11.11vw;
+        height: 11.11vw;
+
+        font-size: 3.33vw;
+    }
+    
+    /* submit button */
+    #submit-value-btn {
+        border-radius: 6.66vw;   
+        letter-spacing: 0.44vw;
+        padding: 3.33vw 0;
+
+        font-size: 3.33vw;
+    }
+    
+    /* thank-you-state */
+    #thank-you-state {
+        gap: 6.66vw;
+    }
+
+    .illustration-thank-you img {
+        width: 36vw;
+        height: 24vw; 
+    }
+    
+    .rating-selected {
+        padding: 1.11vw 3.77vw;
+        border-radius: 3.33vw;
+    }
+    
+    .thank-you-text {
+        gap: 2.22vw;
+    }
+}
